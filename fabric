@@ -1,0 +1,25 @@
+(03:51:09 PM) Halim, Aisha: yeah it's cool
+(03:51:16 PM) Halim, Aisha: it happesn with spring changes lol
+(03:51:26 PM) Halim, Aisha: run them on intellij and see why
+(03:51:39 PM) Jiang: ok
+(03:51:55 PM) Jiang: are these all unit test?
+(03:51:59 PM) Jiang: i can run locally?
+(03:52:12 PM) Halim, Aisha: yep!
+(03:52:17 PM) Halim, Aisha: to both questions
+(03:52:29 PM) Halim, Aisha: just use intellij so you can run each individual test instead all of them
+(03:52:46 PM) Halim, Aisha: right click the test class and click run blah blah
+(03:52:59 PM) Jiang: ok
+(08/22/2013 11:36:21 AM) Jiang: hey I accidentally delete the fabric file on my workstation, so I reinstall them again, but why cannot I push to master now?
+(11:36:36 AM) Halim, Aisha: hwo'd you do it
+(11:36:48 AM) Halim, Aisha: the reinstall
+(11:37:08 AM) Jiang: fetch them from git
+(11:37:12 AM) Halim, Aisha: nope
+(11:37:13 AM) Halim, Aisha: do this
+(11:37:19 AM) Halim, Aisha: bash <(curl -s http://git.orbitz.net/ada/glu-tools/blobs/raw/master/setup_fabric.sh) <fabric repo name>
+
+(11:37:25 AM) Halim, Aisha: specify lns_pfqa
+(11:37:50 AM) Halim, Aisha: At this point, your fabric is checked out to ~/orbitz-fabrics/<fabric repo name>.
+
+(11:37:54 AM) Halim, Aisha: from: https://wiki.orbitz.net/display/dev/ADA+User+Guide+1.8
+(11:40:59 AM) Jiang: cool
+(11:41:02 AM) Jiang: thank!
